@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.stylish{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+    text-align: center;
+    padding: 185px 0;
+}
+.stylish h1{
+    font-size: 80px;
+    color: #212529;
+}
+.stylish p{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 25px;
+    color: #212529;
+    padding: 20px 0 50px 0;
+}
+.stylish button, .features button{
+    padding: 20px 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1D809f;
+    color: #ffffff;
+    font-weight: 800;
+    transition: background 0.3s;
+}
+.stylish button:hover{
+    background-color: rgb(20, 44, 44);
+}
+.features{
+    text-align: center;
+    padding: 80px 0;
+    color: #212529;
+}
+.features h2{
+    font-size: 30px;
+}
+.features p{
+    font-size: 19px;
+    padding: 20px 0 40px 0;
+}
+.features button{
+background-color: #132231
+}
+.features button:hover{
+    background: #000000
+}
+.services{
+    padding: 50px 0;
+    background-color: #1D809f;
+}
+.services .text-holder{
+ text-align: center;
+}
+.services .text-holder h4{
+    color: #ecb807;
+    font-weight: 900
+}
+.services .text-holder h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.respons{
+    width: 100%;
+    height: 200px;
+}
+.Wrapper{
+margin: auto;
+width: 80%;
+height: 200px;
+}
+.icon-holder{
+    width: 25%;
+    text-align: center;
+    float: left
+}
+.icon i{
+font-size: 30px;
+color: #1D809f
+}
+.icon{
+    background: white;
+    width: max-content;
+    padding: 20px 25px;
+    border-radius:50%;
+    margin:auto;
+}
+.icon-holder h3{
+    padding: 20px;
+    font-weight: 700
+    
+}
+
