@@ -3,7 +3,7 @@
     padding: 0%;
 }
 .body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 .stylish{
     background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
@@ -53,6 +53,7 @@ background-color: #132231
 }
 .services{
     padding: 50px 0;
+    color: #ffffff;
     background-color: #1D809f;
 }
 .services .text-holder{
@@ -65,7 +66,8 @@ background-color: #132231
 .services .text-holder h2{
     color: #ffffff;
     font-size: 35px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 100px;
 }
 .respons{
     width: 100%;
@@ -97,4 +99,46 @@ color: #1D809f
     font-weight: 700
     
 }
+.port-header{
+text-align:center;
+margin: 45px 0;
+}
+.port-header p{
+    color: gold;
+}
+.port-header h2{
+    font-size: 3rem;
+}
+.port-item{
+    width: 50%;
+    background-size: cover;
+    float: left;
+    padding: 2rem;
+    color: #ffffff;
+    box-sizing: border-box;
+    /* background: #1D809f; */
+    
+}
 
+.port-item:hover{
+    transform: scale(0.8);
+    /* clip-path: inset(40px) ; */
+    transition: 1s;
+    filter: grayscale(100%)
+}
+
+.port-text{
+    margin-top: 200px;
+}
+.photo1{
+background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-1.jpg);
+}
+.photo2{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-2.jpg)
+}
+.photo3{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-3.jpg)
+}
+.photo4{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-4.jpg)
+}
